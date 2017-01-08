@@ -12,10 +12,10 @@
 		A246D17B1E083D7B0064AC8C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A246D17A1E083D7B0064AC8C /* ViewController.m */; };
 		A246D17D1E083D7B0064AC8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A246D17C1E083D7B0064AC8C /* Assets.xcassets */; };
 		A246D1801E083D7B0064AC8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A246D17E1E083D7B0064AC8C /* Main.storyboard */; };
-		A334F1BE1E1E352700BE1410 /* AXStatusItemPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = A334F1BD1E1E352700BE1410 /* AXStatusItemPopup.m */; };
-		A334F1C11E1E356400BE1410 /* NSWindow+canBecomeKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A334F1C01E1E356400BE1410 /* NSWindow+canBecomeKeyWindow.m */; };
-		A334F1E61E1E379D00BE1410 /* NS(Attributed)String+Geometrics.m in Sources */ = {isa = PBXBuildFile; fileRef = A334F1C61E1E35A600BE1410 /* NS(Attributed)String+Geometrics.m */; };
-		A334F1E71E1E37A100BE1410 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A334F1C31E1E358200BE1410 /* NSString+Extension.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A2E322311E2270CA00FBE6CE /* AXStatusItemPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E3222A1E2270CA00FBE6CE /* AXStatusItemPopup.m */; };
+		A2E322321E2270CA00FBE6CE /* NS(Attributed)String+Geometrics.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E3222C1E2270CA00FBE6CE /* NS(Attributed)String+Geometrics.m */; };
+		A2E322331E2270CA00FBE6CE /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E3222E1E2270CA00FBE6CE /* NSString+Extension.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A2E322341E2270CA00FBE6CE /* NSWindow+canBecomeKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A2E322301E2270CA00FBE6CE /* NSWindow+canBecomeKeyWindow.m */; };
 		A334F1EB1E1E3B9900BE1410 /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = A334F1E91E1E3B9900BE1410 /* Test.m */; };
 		A334F1EC1E1E3B9900BE1410 /* Test.xib in Resources */ = {isa = PBXBuildFile; fileRef = A334F1EA1E1E3B9900BE1410 /* Test.xib */; };
 /* End PBXBuildFile section */
@@ -30,14 +30,14 @@
 		A246D17C1E083D7B0064AC8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A246D17F1E083D7B0064AC8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A246D1811E083D7B0064AC8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A334F1BC1E1E352700BE1410 /* AXStatusItemPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXStatusItemPopup.h; sourceTree = "<group>"; };
-		A334F1BD1E1E352700BE1410 /* AXStatusItemPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXStatusItemPopup.m; sourceTree = "<group>"; };
-		A334F1BF1E1E356400BE1410 /* NSWindow+canBecomeKeyWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSWindow+canBecomeKeyWindow.h"; sourceTree = "<group>"; };
-		A334F1C01E1E356400BE1410 /* NSWindow+canBecomeKeyWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSWindow+canBecomeKeyWindow.m"; sourceTree = "<group>"; };
-		A334F1C21E1E358200BE1410 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
-		A334F1C31E1E358200BE1410 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
-		A334F1C51E1E35A600BE1410 /* NS(Attributed)String+Geometrics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NS(Attributed)String+Geometrics.h"; sourceTree = "<group>"; };
-		A334F1C61E1E35A600BE1410 /* NS(Attributed)String+Geometrics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NS(Attributed)String+Geometrics.m"; sourceTree = "<group>"; };
+		A2E322291E2270CA00FBE6CE /* AXStatusItemPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXStatusItemPopup.h; sourceTree = "<group>"; };
+		A2E3222A1E2270CA00FBE6CE /* AXStatusItemPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXStatusItemPopup.m; sourceTree = "<group>"; };
+		A2E3222B1E2270CA00FBE6CE /* NS(Attributed)String+Geometrics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NS(Attributed)String+Geometrics.h"; sourceTree = "<group>"; };
+		A2E3222C1E2270CA00FBE6CE /* NS(Attributed)String+Geometrics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NS(Attributed)String+Geometrics.m"; sourceTree = "<group>"; };
+		A2E3222D1E2270CA00FBE6CE /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		A2E3222E1E2270CA00FBE6CE /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		A2E3222F1E2270CA00FBE6CE /* NSWindow+canBecomeKeyWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSWindow+canBecomeKeyWindow.h"; sourceTree = "<group>"; };
+		A2E322301E2270CA00FBE6CE /* NSWindow+canBecomeKeyWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSWindow+canBecomeKeyWindow.m"; sourceTree = "<group>"; };
 		A334F1D11E1E368700BE1410 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		A334F1D31E1E369200BE1410 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
 		A334F1D51E1E36F000BE1410 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -84,18 +84,11 @@
 		A246D1721E083D7B0064AC8C /* 右上角菜单 */ = {
 			isa = PBXGroup;
 			children = (
+				A2E322281E2270CA00FBE6CE /* StatusItem */,
 				A246D1731E083D7B0064AC8C /* AppDelegate.h */,
 				A246D1741E083D7B0064AC8C /* AppDelegate.m */,
 				A246D1791E083D7B0064AC8C /* ViewController.h */,
 				A246D17A1E083D7B0064AC8C /* ViewController.m */,
-				A334F1BC1E1E352700BE1410 /* AXStatusItemPopup.h */,
-				A334F1BD1E1E352700BE1410 /* AXStatusItemPopup.m */,
-				A334F1BF1E1E356400BE1410 /* NSWindow+canBecomeKeyWindow.h */,
-				A334F1C01E1E356400BE1410 /* NSWindow+canBecomeKeyWindow.m */,
-				A334F1C21E1E358200BE1410 /* NSString+Extension.h */,
-				A334F1C31E1E358200BE1410 /* NSString+Extension.m */,
-				A334F1C51E1E35A600BE1410 /* NS(Attributed)String+Geometrics.h */,
-				A334F1C61E1E35A600BE1410 /* NS(Attributed)String+Geometrics.m */,
 				A246D17C1E083D7B0064AC8C /* Assets.xcassets */,
 				A246D17E1E083D7B0064AC8C /* Main.storyboard */,
 				A246D1811E083D7B0064AC8C /* Info.plist */,
@@ -113,6 +106,21 @@
 				A334F1EA1E1E3B9900BE1410 /* Test.xib */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2E322281E2270CA00FBE6CE /* StatusItem */ = {
+			isa = PBXGroup;
+			children = (
+				A2E322291E2270CA00FBE6CE /* AXStatusItemPopup.h */,
+				A2E3222A1E2270CA00FBE6CE /* AXStatusItemPopup.m */,
+				A2E3222B1E2270CA00FBE6CE /* NS(Attributed)String+Geometrics.h */,
+				A2E3222C1E2270CA00FBE6CE /* NS(Attributed)String+Geometrics.m */,
+				A2E3222D1E2270CA00FBE6CE /* NSString+Extension.h */,
+				A2E3222E1E2270CA00FBE6CE /* NSString+Extension.m */,
+				A2E3222F1E2270CA00FBE6CE /* NSWindow+canBecomeKeyWindow.h */,
+				A2E322301E2270CA00FBE6CE /* NSWindow+canBecomeKeyWindow.m */,
+			);
+			path = StatusItem;
 			sourceTree = "<group>";
 		};
 		A334F1D01E1E368700BE1410 /* Frameworks */ = {
@@ -203,14 +211,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A334F1C11E1E356400BE1410 /* NSWindow+canBecomeKeyWindow.m in Sources */,
 				A246D17B1E083D7B0064AC8C /* ViewController.m in Sources */,
 				A334F1EB1E1E3B9900BE1410 /* Test.m in Sources */,
-				A334F1BE1E1E352700BE1410 /* AXStatusItemPopup.m in Sources */,
-				A334F1E61E1E379D00BE1410 /* NS(Attributed)String+Geometrics.m in Sources */,
+				A2E322331E2270CA00FBE6CE /* NSString+Extension.m in Sources */,
+				A2E322341E2270CA00FBE6CE /* NSWindow+canBecomeKeyWindow.m in Sources */,
 				A246D1781E083D7B0064AC8C /* main.m in Sources */,
+				A2E322321E2270CA00FBE6CE /* NS(Attributed)String+Geometrics.m in Sources */,
 				A246D1751E083D7B0064AC8C /* AppDelegate.m in Sources */,
-				A334F1E71E1E37A100BE1410 /* NSString+Extension.m in Sources */,
+				A2E322311E2270CA00FBE6CE /* AXStatusItemPopup.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
